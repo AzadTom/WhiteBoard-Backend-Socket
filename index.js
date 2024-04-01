@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server,{
     cors:{
-        origin:"https://white-board-front-end.vercel.app/"
+        origin:"*"
     }
 })
 
